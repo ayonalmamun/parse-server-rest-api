@@ -20,7 +20,6 @@ Run Command:
 
 ```
   $ node app.js
-
 ```
 
 ## API DOCUMENTATION
@@ -100,6 +99,21 @@ example:
 /parse/classes/rest/0dcFQ0IN8o
 
 
+## parse-dashboard
 
+Manage the app through the parse-dashboard.
 
+you can find the configuration file named parse-dashboard-config.json in the directory.
+
+make sure you have parse-dashboard npm installed globally.
+
+```
+$ npm install -g parse-dashboard
+```
+
+Finally, run this command to the manage your application.
+
+```
+$ parse-dashboard --config .\parse-dashboard-config.json
+```
 
